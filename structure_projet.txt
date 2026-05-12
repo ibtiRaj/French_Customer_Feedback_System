@@ -1,0 +1,20 @@
+customer-feedback-nlp/
+│
+├── data/
+├── notebooks/
+├── src/
+│   ├── preprocessing.py
+│   ├── tfidf_model.py
+│   ├── camembert_model.py
+│   ├── inference.py
+│
+├── api/
+│   └── main.py
+│
+├── app/
+│   └── streamlit_app.py
+│
+├── tests/
+├── requirements.txt
+├── Dockerfile
+└── README.md

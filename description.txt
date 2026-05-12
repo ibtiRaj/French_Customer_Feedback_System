@@ -1,0 +1,7 @@
+Problem statement
+
+“Companies receive thousands of French customer reviews and cannot manually analyze them efficiently.”
+
+Your solution
+
+“An NLP system that classifies sentiment and extracts main complaint topics from French text.”

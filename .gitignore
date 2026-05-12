@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Mac/Linux
+.DS_Store
+Thumbs.db
+
+# ML Models
+*.bin
+*.pt
+*.pth
+*.h5
+
+# Training outputs
+camembert_results/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Logs
+*.log
