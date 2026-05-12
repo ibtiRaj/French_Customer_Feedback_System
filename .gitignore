@@ -37,3 +37,6 @@ huggingface/
 
 # Logs
 *.log
+#models camembert
+models/camembert/
+models/*.joblib
