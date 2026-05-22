@@ -1,5 +1,9 @@
 # 🇫🇷 French Customer Feedback System
 
+## 📊 System Architecture
+
+![Architecture Diagram](images/architecture.png)
+
 ## 🇬🇧 English
 
 An end-to-end Natural Language Processing (NLP) project for analyzing French customer feedback using both classical machine learning (TF-IDF) and modern deep learning (CamemBERT).
