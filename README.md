@@ -122,6 +122,7 @@ Returns most influential words:
   "positive": ["excellent", "superbe", "génial"],
   "negative": ["mauvais", "nul", "ennuyeux"]
 }
+```
 
 Key Features
 Text preprocessing (cleaning, normalization)
@@ -158,7 +159,6 @@ uvicorn api.main:app --reload
 
 ## 🇫🇷 Version française
 
-```markdown
 # 🇫🇷 Système d'analyse de sentiments pour les avis clients français
 
 Projet de traitement automatique du langage naturel (NLP) permettant d’analyser des avis clients en français à l’aide de modèles de machine learning classiques (TF-IDF) et de modèles avancés basés sur les transformers (CamemBERT - extension future).
@@ -204,7 +204,7 @@ Le modèle est entraîné sur le dataset **Allociné**, composé d’avis de fil
 
 ---
 
-## 📈 Résultats (TF-IDF)
+## 📈 Résultats (TF-IDF) 
 
 - Accuracy : ~92%
 - Bonne détection lexicale des sentiments
@@ -241,13 +241,15 @@ Retourne les mots les plus influents :
   "positive": ["excellent", "superbe", "génial"],
   "negative": ["mauvais", "nul", "ennuyeux"]
 }
+```
 🧠 Fonctionnalités principales
-Nettoyage et prétraitement du texte
-Vectorisation TF-IDF avec n-grammes
-Classification avec régression logistique
-Sauvegarde du modèle (joblib)
-API REST avec FastAPI
-Interprétabilité via les mots les plus importants
+- Nettoyage et prétraitement du texte
+- Vectorisation TF-IDF avec n-grammes
+- Classification avec régression logistique
+- Sauvegarde du modèle (joblib)
+- API REST avec FastAPI
+- Interprétabilité via les mots les plus importants
+
 🏗️ Structure du projet
 project/
 │
@@ -263,7 +265,9 @@ project/
 ├── train.py
 ├── predict.py
 └── requirements.txt
+
 ▶️ Lancer le projet
+
 1. Installer les dépendances
 pip install -r requirements.txt
 2. Entraîner le modèle
