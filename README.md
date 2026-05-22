@@ -2,14 +2,14 @@
 
 ## 🇬🇧 English
 
-An end-to-end Natural Language Processing (NLP) project for analyzing French customer feedback using both classical machine learning (TF-IDF) and modern deep learning (CamemBERT - planned extension).
+An end-to-end Natural Language Processing (NLP) project for analyzing French customer feedback using both classical machine learning (TF-IDF) and modern deep learning (CamemBERT).
 
 The project is designed as a complete system including:
 - Data preprocessing
 - Sentiment classification model
 - Explainability layer
 - REST API deployment using FastAPI
-- Model comparison (TF-IDF vs CamemBERT - future work)
+- Model comparison (TF-IDF vs CamemBERT)
 
 ---
 
@@ -39,7 +39,7 @@ The model is trained on the **Allociné dataset**, a French movie review dataset
 - High interpretability
 - Strong performance on structured text
 
-### 2. CamemBERT (planned)
+### 2. CamemBERT
 - Transformer-based model for French language
 - Better understanding of context and informal language
 
@@ -50,6 +50,45 @@ The model is trained on the **Allociné dataset**, a French movie review dataset
 - Accuracy: ~92%
 - Strong lexical sentiment detection
 - Limitations with informal expressions and context
+
+---
+
+## 📊 Final Evaluation on Allociné Dataset
+
+### 🤖 CamemBERT (Fine-tuned)
+
+- Accuracy: **0.9749**
+- F1-score: **0.9739**
+
+| Class | Precision | Recall | F1-score |
+|------|----------|--------|---------|
+| Negative (0) | 0.98 | 0.97 | 0.98 |
+| Positive (1) | 0.97 | 0.98 | 0.97 |
+
+---
+
+### 📊 TF-IDF + Logistic Regression
+
+- Accuracy: **0.9366**
+- F1-score: **0.9341**
+
+---
+
+## ⚖️ Model Comparison
+
+| Model | Accuracy | F1-score | Strength |
+|------|----------|----------|---------|
+| TF-IDF + Logistic Regression | 93.66% | 93.41% | Fast, interpretable |
+| CamemBERT (fine-tuned) | 97.49% | 97.39% | Strong contextual understanding |
+
+---
+
+## 🧠 Key Insights
+
+- CamemBERT significantly outperforms TF-IDF on French sentiment analysis.
+- Transformer model handles negation and context much better.
+- TF-IDF remains efficient for lightweight production systems.
+- Trade-off: performance vs computational cost.
 
 ---
 
@@ -159,7 +198,7 @@ Le modèle est entraîné sur le dataset **Allociné**, composé d’avis de fil
 - Très interprétable
 - Bonnes performances sur texte structuré
 
-### 2. CamemBERT (prévu)
+### 2. CamemBERT 
 - Modèle transformer pour le français
 - Meilleure compréhension du contexte et du langage informel
 

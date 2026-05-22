@@ -40,3 +40,9 @@ huggingface/
 #models camembert
 models/camembert/
 models/*.joblib
+
+ccc.txt
+description.txt
+kk.txt
+*.pkl
+*.safetensors
